@@ -1,4 +1,4 @@
-name: Hello world!
+name: Hello world / per the example !
 
 on: 
   push:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   hello_world_job:
-    runs-on: ubuntu
+    runs-on: ubuntu-18.04
     steps:
       - name: Say hello
         run: |
