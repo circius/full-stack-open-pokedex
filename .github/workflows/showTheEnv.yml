@@ -17,5 +17,4 @@ jobs:
           pwd
       - name: ls the cwd
         run: |
-        ls -l
-
+          ls -l
