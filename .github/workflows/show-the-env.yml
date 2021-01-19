@@ -1,0 +1,21 @@
+name: show the env
+
+on: 
+  push:
+    branches:
+      - master
+
+jobs:
+  show-the-env:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: show the date
+        run: |
+          date
+      - name: show the cwd
+        run: |
+          pwd
+      - name: ls the cwd
+        run: |
+        ls -l
+
